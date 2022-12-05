@@ -1,0 +1,16 @@
+### create data siswa
+POST http://localhost:9000/api/siswa/create
+Content-Type: application/json
+
+{
+  "nama_lengkap": "Ridzi Hafiz",
+  "usia": 27,
+  "alamat": "vila nusa indah",
+  "phone": "08726392937",
+  "email": "ridzi@gmail.com",
+  "nis": "3278362627"
+}
+
+### read data siswa
+GET http://localhost:9000/api/siswa/read
+Content-Type: application/json
